@@ -1,0 +1,237 @@
+/* Christine's Custom Theme*/
+
+
+/********* TOP BAR ***********/
+/*Pink Top Bar*/
+.app-topbar {
+	background: #EE1289;
+}
+/*AND - TOP BAR - Change to Pink and get rid of the black line under the top bar*/
+.app-android .app-topbar {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	background: #EE1289;
+}
+/*iOS - TOP BAR - Change to Pink*/
+.app-ios .app-topbar {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	background: #EE1289;
+	text-shadow: none;
+}
+
+/*TOP BAR LEFT BUTTON - Custom UI for end of list "home" button since it was overlapping
+.app-topbar .app-button.left {
+	margin:0px;
+	padding: 0px;
+	height: 100%;
+	width: 44px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAMAAABf788oAAAAjVBMVEUiIiIjIyMrKysqKioAAACdnZ0mJiYnJyednZ0kJCQoKCgsLCwlJSXLy8vPz8/MzMzJycnNzc3Ozs7GxsagoKCjo6O3t7exsbHIyMisrKzAwMDExMS+vr6ysrLHx8fKysq0tLStra27u7urq6unp6fBwcGoqKjDw8Ourq66urq9vb2fn5/FxcWwsLClpaWY7qkYAAAADXRSTlMAAAAAADMAAJkAAAAAOhxptwAAAMVJREFUeF5d0dVuBTEMBNCZvUWY0OLFMsP/f15lxWqb5i1HijO2cYR6zndKKfWDA7EuksIeFcjVNkv5uaMDPoOkco8KxNkhSmVHwmEKkjSiAjFeW8UJhMNdkOLh2IF4yFbxBYQBebopUtmcsIJnil8gYIBVn6XwCsJhDlJOww8Mi2Xa290hGcy/gJt/T9D1sSlK3IbmW/LisQkG4qmJDhBvxZtzwKim/WZADu9LM0LQGpLKGnRg92Fr2F7y76KiL6qeK1/lN9FpDuyoOMUMAAAAAElFTkSuQmCC);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	-webkit-background-size: 8px 14px;
+	background-size: 8px 14px;
+	color: transparent;
+	border: none;
+	-webkit-box-shadow: none;;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+
+}
+
+/*AND - TOP BAR LEFT BUTTON/HOME - Use custom home button that is the same as Android < 
+.app-android .app-topbar .app-button.left {
+	padding: 0;
+	height: 100%;
+	width: 48px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAMAAABf788oAAAAjVBMVEUiIiIjIyMrKysqKioAAACdnZ0mJiYnJyednZ0kJCQoKCgsLCwlJSXLy8vPz8/MzMzJycnNzc3Ozs7GxsagoKCjo6O3t7exsbHIyMisrKzAwMDExMS+vr6ysrLHx8fKysq0tLStra27u7urq6unp6fBwcGoqKjDw8Ourq66urq9vb2fn5/FxcWwsLClpaWY7qkYAAAADXRSTlMAAAAAADMAAJkAAAAAOhxptwAAAMVJREFUeF5d0dVuBTEMBNCZvUWY0OLFMsP/f15lxWqb5i1HijO2cYR6zndKKfWDA7EuksIeFcjVNkv5uaMDPoOkco8KxNkhSmVHwmEKkjSiAjFeW8UJhMNdkOLh2IF4yFbxBYQBebopUtmcsIJnil8gYIBVn6XwCsJhDlJOww8Mi2Xa290hGcy/gJt/T9D1sSlK3IbmW/LisQkG4qmJDhBvxZtzwKim/WZADu9LM0LQGpLKGnRg92Fr2F7y76KiL6qeK1/lN9FpDuyoOMUMAAAAAElFTkSuQmCC);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	-webkit-background-size: 8px 14px;
+	background-size: 8px 14px;
+	color: transparent;
+}*/
+
+/*iOS - TOP BAR BUTTONS - Make top bar buttons more like Android*/
+.app-ios .app-topbar .app-button.right{
+	margin: 0px;
+	height: 44px;
+	background: transparent;
+	border: none;
+	-webkit-box-shadow: none;;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	font-size: 18px;
+	line-height: 44px;
+}
+
+/* - SELECTED STATE - Change the selected state of the left top bar button
+.app-ios .app-topbar .app-button.active.left {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAMAAABf788oAAAAjVBMVEUiIiIjIyMrKysqKioAAACdnZ0mJiYnJyednZ0kJCQoKCgsLCwlJSXLy8vPz8/MzMzJycnNzc3Ozs7GxsagoKCjo6O3t7exsbHIyMisrKzAwMDExMS+vr6ysrLHx8fKysq0tLStra27u7urq6unp6fBwcGoqKjDw8Ourq66urq9vb2fn5/FxcWwsLClpaWY7qkYAAAADXRSTlMAAAAAADMAAJkAAAAAOhxptwAAAMVJREFUeF5d0dVuBTEMBNCZvUWY0OLFMsP/f15lxWqb5i1HijO2cYR6zndKKfWDA7EuksIeFcjVNkv5uaMDPoOkco8KxNkhSmVHwmEKkjSiAjFeW8UJhMNdkOLh2IF4yFbxBYQBebopUtmcsIJnil8gYIBVn6XwCsJhDlJOww8Mi2Xa290hGcy/gJt/T9D1sSlK3IbmW/LisQkG4qmJDhBvxZtzwKim/WZADu9LM0LQGpLKGnRg92Fr2F7y76KiL6qeK1/lN9FpDuyoOMUMAAAAAElFTkSuQmCC);
+	background-color: rgba(0, 0, 0, 0.2);
+}*/
+
+/* - SELECTED STATE - Change the selected state of the left top bar button
+.app-topbar .app-button.active.left {
+	background-color: rgba(0, 0, 0, 0.2);
+}*/
+/* - SELECTED STATE - Change the selected state of the right top bar button*/
+.app-page .app-topbar .app-button.active.right {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* - RELOAD Button in the top bar*/ 
+.app-page .app-topbar .app-button.reload{
+	padding: 0;
+	height: 100%;
+	width: 47px;
+	background-image: url(../img/retry_icon@2x.png);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	background-size: 40% 40%;
+	color: transparent;
+	-webkit-box-shadow: none;;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border: none;
+}
+
+/*AND - TOP BAR ADJUSTMENTS FOR RELOAD BUTTON - Make button bigger since it was overlapping*/
+.app-android .app-topbar .app-button.left {
+	width: 47px;
+}
+
+/* - RELOAD SELECTED STATE - Change the selected state of the left top bar button*/
+.app-topbar .app-button.reload.active {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*AND - Move App Title a bit so it doesn't overlap with the reload button*/
+.app-android .app-title{
+	padding: 0 12px 0 40px;
+}
+
+/******** APP CONTENT ***********/
+
+/*BOTH - Light Pink content area*/
+.app-page, .app-content {
+	background: #FFCCCC;
+	color: #696969;
+}
+
+.app-section > :first-child.active {
+	color: #EE1289;
+}
+
+/******** MISC ***********/
+
+/* Remove padding from top area such that dots look better*/
+.app-page .app-section{
+	margin: 0 8px 8px 8px;
+}
+
+/*BOTH - Loading gif when waiting for the content area to load*/
+.loader{
+	height: 100%;
+	background-image: url(../img/bigger-loader.gif?inline=1);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*BOTH - The carousel dot*/
+.dot {
+	margin: 12px 7px 7px 0px;
+    width: 7px;
+    height: 7px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    display: inline-block;
+}
+
+/*BOTH - The carousel dot*/
+.dot.active {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#dots{
+	text-align: center;
+	position: relative;
+	z-index: 10;
+}
+
+/******** FROM KIK SCREEN ***********/
+
+/*iOS - SELECTED STATE - Change the selected state of the top bar buttons*/
+.app-ios .app-topbar.fromKikTopBar .app-button.active {
+	background: #3C3C3C;
+}
+
+/* Add the appsection padding back that was removed for dots*/
+.app-page .app-section.fromKikSection{
+	margin-top: 8px;
+}
+
+/*TOP BAR LEFT BUTTON - Custom UI for end of list "home" button since it was overlapping*/
+.app-topbar.fromKikTopBar .app-button.left {
+	padding: 0;
+	height: 100%;
+	width: 44px;
+	background-image: url(../img/x.png);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	background-size: 40% 40%;
+	color: transparent;
+}
+
+/*TOP BAR LEFT BUTTON - Custom UI for end of list "home" button since it was overlapping*/
+.app-android .app-topbar.fromKikTopBar .app-button.left {
+	width: 48px;
+}
+
+/*So it doesn't overlap with the x button*/
+.app-android .fromKikTopBar .app-title{
+	padding: 0 12px 0 40px;
+}
+
+/* - SELECTED STATE - Change the selected state of the left top bar button*/
+.app-ios .app-topbar.fromKikTopBar  .app-button.active.left {
+	background-image: url(../img/x.png);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/* - SELECTED STATE - Change the selected state of the left top bar button*/
+.app-topbar.fromKikTopBar  .app-button.active.left {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* - SELECTED STATE - Change the selected state of the right top bar button*/
+.app-ios .app-topbar.fromKikTopBar .app-button.active.right {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+p {
+	text-align: left;
+	margin-top: 15px;
+}
+#myImage{
+	border-radius: 3px;
+	max-width: 100%;
+}
+
+.centeredImage
+{
+	text-align: center;
+	display: inline-block;
+	width: 150px;
+}
