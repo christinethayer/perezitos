@@ -40,7 +40,7 @@ function init () {
     }
   }
 
-  fp.parseUrl('http://i.cocoperez.com/?feed=atom').on('article', add);
+  fp.parseUrl('http://perezhilton.com/cocoperez/?feed=atom').on('article', add);
 
   return promise;
 }
