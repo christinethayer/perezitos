@@ -21,7 +21,7 @@ function init () {
     }
   }
 
-  fp.parseUrl('http://i.perezhilton.com/?feed=rss2').on('article', add);
+  fp.parseUrl('http://i.cocoperez.com/?feed=atom').on('article', add);
 
   return promise;
 }

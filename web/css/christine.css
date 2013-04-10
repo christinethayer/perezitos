@@ -4,7 +4,7 @@
 /********* TOP BAR ***********/
 /*Pink Top Bar*/
 .app-topbar {
-	background: #EE1289;
+	background: #9B30FF;
 }
 /*AND - TOP BAR - Change to Pink and get rid of the black line under the top bar*/
 .app-android .app-topbar {
@@ -12,7 +12,7 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 	border: none;
-	background: #EE1289;
+	background: #9B30FF;
 }
 /*iOS - TOP BAR - Change to Pink*/
 .app-ios .app-topbar {
@@ -20,7 +20,7 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 	border: none;
-	background: #EE1289;
+	background: #9B30FF;
 	text-shadow: none;
 }
 
@@ -125,12 +125,12 @@
 
 /*BOTH - Light Pink content area*/
 .app-page, .app-content {
-	background: #FFCCCC;
+	background: #EED2EE;
 	color: #696969;
 }
 
 .app-section > :first-child.active {
-	color: #EE1289;
+	color: #9B30FF;
 }
 
 /******** MISC ***********/
