@@ -112,7 +112,7 @@ App.populator('Perez1', function (page, article) {
         //Adds default image to articles that have videos in <span> tags
         if ($(this).find('span').length){
           var imgs = $('<img />');
-          imgs.attr('src', 'img/purple_video.jpeg');
+          imgs.attr('src', 'img/purple_video.png');
           imgs.addClass('centeredImage');
           //imgs.css('width', '100px');
           //imgs.attr('height', '30%');
