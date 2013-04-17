@@ -194,7 +194,7 @@ App.populator('fromKikPerez', function (page, linkData) {
     //Add default image to articles that have no images
     if ($(this).find('span').length){
       var imgs = new Image();
-      imgs.src = 'img/perez.jpg';
+      imgs.src = 'img/mainlogo.jpg';
       $(this).find('span').replaceWith(imgs);
     }
     //Scale the Embedded YouTube video to fit the page
